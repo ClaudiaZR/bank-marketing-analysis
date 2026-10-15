@@ -1,60 +1,69 @@
-# Tableau Dashboards — Bank Marketing Analysis
+ # Tableau Dashboards — Bank Marketing Analysis
 
-This section presents two interactive dashboards developed in Tableau to analyze customer subscription patterns and marketing campaign effectiveness.
+This folder contains the Tableau dashboards developed for the Bank Marketing Customer and Marketing Analysis project. The dashboards explore customer subscription patterns and marketing campaign effectiveness using the cleaned UCI Bank Marketing dataset.
 
 ## 1. Customer Segment Analysis
 
+This dashboard examines term deposit subscription patterns across customer demographics and job categories.
+
+**Key visualizations and features:**
+- KPI cards showing total records, subscribers, and overall subscription rate.
+- Subscription rate by age group.
+- Number of subscribers by age group.
+- Subscription rate by job category.
+- Heatmap of subscription rates by job category and marital status.
+- Interactive filters and dashboard actions for exploring customer segments.
+
+
 ![Customer Segment Analysis Dashboard](screenshots/customer_segment_analysis.png)
-
-### Objective
-Understand how term deposit subscription rates and subscriber counts vary across customer age groups, job categories, and marital status.
-
-### Key Insights
-- Students and retired customers showed relatively high subscription rates among the job categories reviewed.
-- Customers aged 30–39 contributed the largest number of subscribers.
-- Some older age groups showed higher subscription rates, highlighting the importance of comparing rates with subscriber counts.
-- Subscription performance varied across job and marital status combinations.
-
-### Tableau Features
-- KPI cards
-- Bar charts
-- Heatmap
-- Calculated fields
-- Interactive filters
-- Dashboard filter actions
-- Custom tooltips
 
 ## 2. Marketing Campaign Effectiveness
 
+This dashboard investigates the relationship between campaign contact frequency, previous campaign outcomes, and term deposit subscriptions.
+
+**Key visualizations and features:**
+- Pareto-style chart showing each campaign contact group's contribution to total subscribers and the cumulative percentage.
+- Subscription rate by number of campaign contacts.
+- Box plot comparing campaign contact distributions by subscription outcome.
+- Subscription rate by previous campaign outcome.
+- Dual-axis chart, cumulative percentage calculations, annotations, and informative tooltips.
+
+
 ![Marketing Campaign Effectiveness Dashboard](screenshots/marketing_campaign_effectiveness.png)
 
-### Objective
-Examine how campaign contact frequency and previous campaign outcomes relate to term-deposit subscription performance.
+## 3. Key Findings
 
-### Key Insights
-- The observed subscription rate declined from 13.04% for records with one contact to 3.56% for records with 10 or more contacts.
-- Customers contacted 1–5 times accounted for 95.99% of all subscribers.
-- Records with a successful previous campaign outcome had a 65.11% current subscription rate, compared with 14.23% after a previous failure.
-- Both subscription outcome groups had a median of two contacts during the current campaign.
+- The dataset contains **41,188 records**, including **4,640 subscriptions**, for an overall subscription rate of **11.27%**.
+- Student and retired job categories showed relatively high subscription rates among the job categories analyzed.
+- Customers aged 30–39 contributed the largest number of subscribers.
+- Customers contacted 1–5 times accounted for **95.99% of all subscribers**.
+- Subscription rates were lower among customers contacted more frequently during the current campaign.
+- Customers with a successful previous campaign outcome had a substantially higher subscription rate than those with a previous failure or no previous outcome recorded.
 
-These results describe associations in the data and do not establish that contact frequency causes subscription outcomes.
+These findings describe associations in the dataset and do not establish that contact frequency causes a particular subscription outcome.
 
-### Tableau Features
-- Pareto-style chart
-- Dual-axis chart
-- Running total and percentage-of-total calculations
-- Box plot
-- Calculated fields
-- Data labels and annotations
-- Custom tooltips
+## 4. Tableau Skills Demonstrated
 
-## Tools Used
-- Tableau Desktop
-- Tableau Public
-- SQLite and SQL for data preparation
+- Calculated fields and KPI development.
+- Bar charts, heatmaps, and box plots.
+- Pareto-style charts and dual-axis visualizations.
+- Table calculations, running totals, and percentage-of-total calculations.
+- Interactive filters and dashboard actions.
+- Custom tooltips, data labels, and annotations.
+- Dashboard layout, visual hierarchy, and data storytelling.
 
-## Interactive Dashboard
-[View the Bank Marketing Campaign Analysis on Tableau Public](https://public.tableau.com/app/profile/claudia.zelaya/viz/Bank_Marketing_Campaign_Analysis/BankMarketingCampaignAnalysis)
+## 5. Data Source and Preparation
+
+The analysis uses the cleaned dataset prepared with SQL and exported for Tableau.
+
+- **Original dataset:** [UCI Machine Learning Repository — Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+- **SQL documentation and analysis:** [`sql/README.md`](../sql/README.md)
+- **Dataset documentation:** [`data/README.md`](../data/README.md)
+
+## 6. Tableau Public Workbook
+
+[**View the Bank Marketing Campaign Analysis Workbook**](https://public.tableau.com/app/profile/claudia.zelaya/viz/Bank_Marketing_Campaign_Analysis/BankMarketingCampaignAnalysis)
+
 
 ## Analytical Note
 Subscription rates and subscriber counts provide different perspectives on campaign performance. Customer segments with higher rates do not necessarily contribute the largest number of subscribers. All findings should be interpreted in the context of the dataset and its observational nature.
