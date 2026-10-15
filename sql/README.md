@@ -58,7 +58,7 @@ These figures establish the baseline distribution of the target variable, y.
 - Table creation and validation
 - Use of SQLite commands such as PRAGMA table_info()
 
-## 5. Project File
+## 5. SQLite Script
 
 - [bank_marketing_analysis.sql](bank_marketing_analysis.sql) — contains the SQL queries for initial exploration, data quality checks, and working-table creation.
 
