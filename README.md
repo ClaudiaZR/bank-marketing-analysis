@@ -148,18 +148,14 @@ bank_marketing_analysis/
 
 Examines subscription rates and subscriber counts across age groups, job categories, and marital status.
 
-![Customer Segment Analysis Dashboard](https://github.com/ClaudiaZR/bank_marketing_analysis/raw/main/tableau/screenshots/customer_segment_analysis.png)
+![Customer Segment Analysis Dashboard](tableau/screenshots/customer_segment_analysis.png)
 
-[View dashboard screenshot](screenshots/customer_segment_analysis.png)
 
 ### Marketing Campaign Effectiveness
 
 Explores campaign contact frequency, subscriber contribution by contact group, contact distributions by subscription outcome, and previous campaign outcomes. Includes a Pareto-style chart with a cumulative percentage line.
 
-![Marketing Campaign Effectiveness Dashboard](screenshots/marketing_campaign_effectiveness.png)
-
-[View dashboard screenshot](https://github.com/ClaudiaZR/bank_marketing_analysis/blob/main/tableau/screenshots/marketing_campaign_effectiveness.png)
-
+![Marketing Campaign Effectiveness Dashboard](tableau/screenshots/marketing_campaign_effectiveness.png)
 
 
 ## 14. Project Documentation
