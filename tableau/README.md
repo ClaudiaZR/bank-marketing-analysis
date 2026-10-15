@@ -54,10 +54,10 @@ These findings describe associations in the dataset and do not establish that co
 
 ## 5. Data Source and Preparation
 
-The analysis uses the cleaned dataset prepared with SQL and exported for Tableau.
+The analysis uses the cleaned dataset prepared with SQLite and exported for Tableau.
 
 - **Original dataset:** [UCI Machine Learning Repository — Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
-- **SQL documentation and analysis:** [`sql/README.md`](../sql/README.md)
+- **SQLite documentation and analysis:** [`sql/README.md`](../sql/README.md)
 - **Dataset documentation:** [`data/README.md`](../data/README.md)
 
 ## 6. Tableau Public Workbook
