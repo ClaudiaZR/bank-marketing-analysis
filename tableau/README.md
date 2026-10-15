@@ -57,8 +57,8 @@ These findings describe associations in the dataset and do not establish that co
 The analysis uses the cleaned dataset prepared with SQLite and exported to a CSV file.
 
 - **Original dataset:** [UCI Machine Learning Repository — Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
-- **SQLite documentation and analysis:** [`sql/README.md`](../sql/README.md)
-- **Dataset documentation:** [`data/README.md`](../data/README.md)
+- **SQLite documentation and analysis:** [sql/README.md](../sql/README.md)
+- **Dataset documentation:** [data/README.md](../data/README.md)
 
 ## 6. Tableau Public Workbook
 
