@@ -54,7 +54,7 @@ These findings describe associations in the dataset and do not establish that co
 
 ## 5. Data Source and Preparation
 
-The analysis uses the cleaned dataset prepared with SQLite and exported for Tableau.
+The analysis uses the cleaned dataset prepared with SQLite and exported to a CSV file.
 
 - **Original dataset:** [UCI Machine Learning Repository — Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 - **SQLite documentation and analysis:** [`sql/README.md`](../sql/README.md)
@@ -62,8 +62,5 @@ The analysis uses the cleaned dataset prepared with SQLite and exported for Tabl
 
 ## 6. Tableau Public Workbook
 
-[**View the Bank Marketing Campaign Analysis Workbook**](https://public.tableau.com/app/profile/claudia.zelaya/viz/Bank_Marketing_Campaign_Analysis/BankMarketingCampaignAnalysis)
+[**Link to the Bank Marketing Campaign Analysis Workbook**](https://public.tableau.com/app/profile/claudia.zelaya/viz/Bank_Marketing_Campaign_Analysis/BankMarketingCampaignAnalysis)
 
-
-## Analytical Note
-Subscription rates and subscriber counts provide different perspectives on campaign performance. Customer segments with higher rates do not necessarily contribute the largest number of subscribers. All findings should be interpreted in the context of the dataset and its observational nature.
